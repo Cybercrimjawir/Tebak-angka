@@ -30,4 +30,3 @@ function tebak() {
         hasil.innerHTML = "💀 Game Over! Angka: " + angkaRahasia;
     }
 }
-g
