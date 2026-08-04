@@ -76,4 +76,5 @@ function startMatrix() {
 
     }, 3500);
 
-    }
+}
+
