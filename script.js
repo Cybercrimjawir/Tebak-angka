@@ -5,7 +5,7 @@ function tebak() {
     let jawaban = Number(document.getElementById("jawaban").value);
     let hasil = document.getElementById("hasil");
 
-vif (jawaban === 67) {
+    if (jawaban === 67) {
     window.location.href = "rahasia.html";
     return;
 }
@@ -18,9 +18,9 @@ vif (jawaban === 67) {
     kesempatan--;
 
     if (jawaban < angkaRahasia) {
-        hasil.innerHTML = "📈 Terlalu kecil!";
+        hasil.innerHTML = "📈 kelebihan!";
     } else {
-        hasil.innerHTML = "📉 Terlalu besar!";
+        hasil.innerHTML = "📉 kekecilan dongo!";
     }
 
     document.getElementById("kesempatan").innerHTML =
